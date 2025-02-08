@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="D:\Fahad\Github_repository\new_premier_pulse\android\app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.1.2"
+    buildFolder="D:\Fahad\Github_repository\new_premier_pulse\build\app"
+    bootClassPath="C:\Users\Fahad\AppData\Local\Android\sdk\platforms\android-34\android.jar;C:\Users\Fahad\AppData\Local\Android\sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Fahad\\Github_repository\\new_premier_pulse\\build\\shared_preferences_android\\intermediates\\merged_res\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Fahad\\.gradle\\caches\\transforms-3\\68afc544509564f88915478be3590a43\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Fahad\\Github_repository\\new_premier_pulse\\build\\shared_preferences_android\\intermediates\\merged_res\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Fahad\\.gradle\\caches\\transforms-3\\68afc544509564f88915478be3590a43\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Fahad\\Github_repository\\new_premier_pulse\\build\\shared_preferences_android\\intermediates\\merged_res\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Fahad\\.gradle\\caches\\transforms-3\\68afc544509564f88915478be3590a43\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Fahad\\Github_repository\\new_premier_pulse\\build\\shared_preferences_android\\intermediates\\merged_res\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Fahad\\.gradle\\caches\\transforms-3\\68afc544509564f88915478be3590a43\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Fahad\\Github_repository\\new_premier_pulse\\build\\shared_preferences_android\\intermediates\\merged_res\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Fahad\\.gradle\\caches\\transforms-3\\68afc544509564f88915478be3590a43\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Fahad\\Github_repository\\new_premier_pulse\\build\\shared_preferences_android\\intermediates\\merged_res\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\Fahad\\.gradle\\caches\\transforms-3\\68afc544509564f88915478be3590a43\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    }
+]

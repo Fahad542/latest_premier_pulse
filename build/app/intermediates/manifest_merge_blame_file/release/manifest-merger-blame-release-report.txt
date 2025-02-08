@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.premier.premierpulse"
+4    android:versionCode="9"
+5    android:versionName="9.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:32:5-66
+11-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:32:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:33:5-79
+12-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:33:22-76
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:connectivity] D:\Fahad\Github_repository\new_premier_pulse\build\connectivity\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+13-->[:connectivity] D:\Fahad\Github_repository\new_premier_pulse\build\connectivity\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\24c6168b4e51bdcae77f1650086dcd6f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\24c6168b4e51bdcae77f1650086dcd6f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\24c6168b4e51bdcae77f1650086dcd6f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\24c6168b4e51bdcae77f1650086dcd6f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+20
+21        <!-- Needs to be explicitly declared on Android R+ -->
+22        <package android:name="com.google.android.apps.maps" />
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\24c6168b4e51bdcae77f1650086dcd6f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\24c6168b4e51bdcae77f1650086dcd6f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+23    </queries>
+24
+25    <permission
+25-->[androidx.core:core:1.10.1] C:\Users\Fahad\.gradle\caches\transforms-3\39ac53c29589e0b61c80b85949b9ea66\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+26        android:name="com.premier.premierpulse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.10.1] C:\Users\Fahad\.gradle\caches\transforms-3\39ac53c29589e0b61c80b85949b9ea66\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.10.1] C:\Users\Fahad\.gradle\caches\transforms-3\39ac53c29589e0b61c80b85949b9ea66\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.premier.premierpulse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.10.1] C:\Users\Fahad\.gradle\caches\transforms-3\39ac53c29589e0b61c80b85949b9ea66\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.10.1] C:\Users\Fahad\.gradle\caches\transforms-3\39ac53c29589e0b61c80b85949b9ea66\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+30
+31    <application
+32        android:name="android.app.Application"
+32-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:6:9-42
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.10.1] C:\Users\Fahad\.gradle\caches\transforms-3\39ac53c29589e0b61c80b85949b9ea66\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+34        android:icon="@mipmap/ic_launcher"
+34-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:7:9-43
+35        android:label="Premier Pulse" >
+35-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:5:9-38
+36        <activity
+36-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:8:9-25:20
+37            android:name="com.premier.premierpulse.MainActivity"
+37-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:9:13-41
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:13:13-163
+39            android:exported="true"
+39-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:10:13-36
+40            android:hardwareAccelerated="true"
+40-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:14:13-47
+41            android:launchMode="singleTop"
+41-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:11:13-43
+42            android:theme="@style/LaunchTheme"
+42-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:12:13-47
+43            android:windowSoftInputMode="adjustResize" >
+43-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:15:13-55
+44            <meta-data
+44-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:17:13-20:19
+45                android:name="io.flutter.embedding.android.NormalTheme"
+45-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:18:17-72
+46                android:resource="@style/NormalTheme" />
+46-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:19:17-54
+47
+48            <intent-filter>
+48-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:21:13-24:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:22:17-68
+49-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:22:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:23:17-76
+51-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:23:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <meta-data
+55-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:26:8-27:69
+56            android:name="com.google.android.geo.API_KEY"
+56-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:26:19-64
+57            android:value="AIzaSyAFkvJ5vPzUed6bCEBWo6UC11RnthpwVdo" />
+57-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:27:12-67
+58        <meta-data
+58-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:28:9-30:33
+59            android:name="flutterEmbedding"
+59-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:29:13-44
+60            android:value="2" />
+60-->D:\Fahad\Github_repository\new_premier_pulse\android\app\src\main\AndroidManifest.xml:30:13-30
+61
+62        <service
+62-->[:geolocator_android] D:\Fahad\Github_repository\new_premier_pulse\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
+63            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+63-->[:geolocator_android] D:\Fahad\Github_repository\new_premier_pulse\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
+64            android:enabled="true"
+64-->[:geolocator_android] D:\Fahad\Github_repository\new_premier_pulse\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
+65            android:exported="false"
+65-->[:geolocator_android] D:\Fahad\Github_repository\new_premier_pulse\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+66            android:foregroundServiceType="location" />
+66-->[:geolocator_android] D:\Fahad\Github_repository\new_premier_pulse\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
+67
+68        <activity
+68-->[:url_launcher_android] D:\Fahad\Github_repository\new_premier_pulse\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+69            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+69-->[:url_launcher_android] D:\Fahad\Github_repository\new_premier_pulse\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+70            android:exported="false"
+70-->[:url_launcher_android] D:\Fahad\Github_repository\new_premier_pulse\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+71            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+71-->[:url_launcher_android] D:\Fahad\Github_repository\new_premier_pulse\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+72
+73        <provider
+73-->[:share] D:\Fahad\Github_repository\new_premier_pulse\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+74            android:name="io.flutter.plugins.share.ShareFileProvider"
+74-->[:share] D:\Fahad\Github_repository\new_premier_pulse\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-70
+75            android:authorities="com.premier.premierpulse.flutter.share_provider"
+75-->[:share] D:\Fahad\Github_repository\new_premier_pulse\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+76            android:exported="false"
+76-->[:share] D:\Fahad\Github_repository\new_premier_pulse\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+77            android:grantUriPermissions="true" >
+77-->[:share] D:\Fahad\Github_repository\new_premier_pulse\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+78            <meta-data
+78-->[:share] D:\Fahad\Github_repository\new_premier_pulse\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:68
+79                android:name="android.support.FILE_PROVIDER_PATHS"
+79-->[:share] D:\Fahad\Github_repository\new_premier_pulse\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+80                android:resource="@xml/flutter_share_file_paths" />
+80-->[:share] D:\Fahad\Github_repository\new_premier_pulse\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-65
+81        </provider>
+82
+83        <uses-library
+83-->[androidx.window:window:1.0.0-beta04] C:\Users\Fahad\.gradle\caches\transforms-3\91bc9050bffdcc6f6702ad38aab7a6dc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+84            android:name="androidx.window.extensions"
+84-->[androidx.window:window:1.0.0-beta04] C:\Users\Fahad\.gradle\caches\transforms-3\91bc9050bffdcc6f6702ad38aab7a6dc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0-beta04] C:\Users\Fahad\.gradle\caches\transforms-3\91bc9050bffdcc6f6702ad38aab7a6dc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+86        <uses-library
+86-->[androidx.window:window:1.0.0-beta04] C:\Users\Fahad\.gradle\caches\transforms-3\91bc9050bffdcc6f6702ad38aab7a6dc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+87            android:name="androidx.window.sidecar"
+87-->[androidx.window:window:1.0.0-beta04] C:\Users\Fahad\.gradle\caches\transforms-3\91bc9050bffdcc6f6702ad38aab7a6dc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+88            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\Fahad\.gradle\caches\transforms-3\91bc9050bffdcc6f6702ad38aab7a6dc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+89        <uses-library
+89-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\24c6168b4e51bdcae77f1650086dcd6f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+90            android:name="org.apache.http.legacy"
+90-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\24c6168b4e51bdcae77f1650086dcd6f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+91            android:required="false" />
+91-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\24c6168b4e51bdcae77f1650086dcd6f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+92
+93        <activity
+93-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\39b741dd681f624a5b69bdb6fb76d53b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+94            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+94-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\39b741dd681f624a5b69bdb6fb76d53b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\39b741dd681f624a5b69bdb6fb76d53b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\39b741dd681f624a5b69bdb6fb76d53b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+97
+98        <meta-data
+98-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\d30124ac1a011bbb3af45617c271f933\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+99            android:name="com.google.android.gms.version"
+99-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\d30124ac1a011bbb3af45617c271f933\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+100            android:value="@integer/google_play_services_version" />
+100-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Fahad\.gradle\caches\transforms-3\d30124ac1a011bbb3af45617c271f933\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+101    </application>
+102
+103</manifest>

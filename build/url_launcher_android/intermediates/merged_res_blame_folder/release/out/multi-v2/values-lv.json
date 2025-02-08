@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Fahad\\Github_repository\\new_premier_pulse\\build\\url_launcher_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-lv\\values-lv.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Fahad\\.gradle\\caches\\transforms-3\\39ac53c29589e0b61c80b85949b9ea66\\transformed\\core-1.10.1\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,456,563,671,786",
+                        "endColumns": "97,101,99,100,106,107,114,100",
+                        "endOffsets": "148,250,350,451,558,666,781,882"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Fahad\\Github_repository\\new_premier_pulse\\build\\url_launcher_android\\intermediates\\merged_res\\release\\values-lv\\values-lv.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Fahad\\.gradle\\caches\\transforms-3\\39ac53c29589e0b61c80b85949b9ea66\\transformed\\core-1.10.1\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,456,563,671,786",
+                        "endColumns": "97,101,99,100,106,107,114,100",
+                        "endOffsets": "148,250,350,451,558,666,781,882"
+                    }
+                }
+            ]
+        }
+    ]
+}
